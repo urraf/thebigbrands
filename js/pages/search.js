@@ -794,7 +794,7 @@ function renderBrands() {
         <small class="sr-bp-scar">${icon('zap')} ${taken} of ${b1 ? b1.units : 15} stores taken this month</small>
       </div>
       <div class="sr-bp-mock" aria-hidden="true">
-        <div class="sr-bp-win"><i></i><i></i><i></i><span>thebigbrands.in/brand/your-brand</span></div>
+        <div class="sr-bp-win"><i></i><i></i><i></i><span>thebigbrands.co.in/brand/your-brand</span></div>
         <div class="sr-bp-hero"><b>YOUR BRAND</b><small>Your tagline here</small><span class="sr-bp-fol">${icon('plus')} Follow</span></div>
         <div class="sr-bp-tabs"><span class="on">All</span><span>Bestsellers</span><span>Offers</span></div>
         <div class="sr-bp-grid">${['lo-hyal', 'cet-moist', 'him-fw', 'nivea-cream'].map(id => `<span>${art(H.product(id))}</span>`).join('')}</div>

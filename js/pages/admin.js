@@ -203,7 +203,7 @@ function shell(tab, body, sub) {
   return `<div class="am">
     <aside class="am-side">
       <div class="am-side-top">
-        <a class="am-logo" href="#/admin" aria-label="The Big Brands admin home"><span class="logo-mark"><i>tbb</i></span><span class="am-logo-t"><b>thebigbrands<em>.in</em></b><small>Admin console</small></span></a>
+        <a class="am-logo" href="#/admin" aria-label="The Big Brands admin home"><span class="logo-mark"><i>tbb</i></span><span class="am-logo-t"><b>thebigbrands<em>.co.in</em></b><small>Admin console</small></span></a>
         <a class="am-store am-store-m" href="#/" aria-label="View store">${ic('store')}<span>Store</span></a>
       </div>
       <nav class="am-nav" aria-label="Admin sections">${nav}</nav>
@@ -706,7 +706,7 @@ function vSettings() {
   const edit = what => `<button type="button" class="btn btn-ghost btn-sm" data-action="toast" data-icon="sliders" data-msg="Editing ${what} — included in the full build">Edit</button>`;
   return `<div class="am-set">
     <section class="blk am-card"><header class="am-card-h"><div><h2>Store details</h2><p>Shown on invoices and the website footer</p></div>${edit('store details')}</header>
-      <dl class="am-kvs">${row('Store name', 'The Big Brands')}${row('Legal entity', 'TBB Retail Pvt Ltd')}${row('GSTIN', '07AAKCT4821M1Z5')}${row('Support', 'care@thebigbrands.in · 1800 120 4455')}${row('Warehouse', 'Okhla Phase II, New Delhi 110020')}</dl></section>
+      <dl class="am-kvs">${row('Store name', 'The Big Brands')}${row('Legal entity', 'TBB Retail Pvt Ltd')}${row('GSTIN', '07AAKCT4821M1Z5')}${row('Support', 'care@thebigbrands.co.in · 1800 120 4455')}${row('Warehouse', 'Okhla Phase II, New Delhi 110020')}</dl></section>
     <section class="blk am-card"><header class="am-card-h"><div><h2>Payment gateway</h2><p>UPI, cards, net banking, wallets &amp; COD</p></div>${pill('Connected', 'live')}</header>
       <dl class="am-kvs">${row('Provider', 'Razorpay')}${row('Methods', 'UPI · Cards · Net banking · Wallets · COD')}${row('Settlement', 'T+2 days to HDFC Bank ••••4821')}${row('COD limit', 'Up to ₹3,000 per order')}</dl></section>
     <section class="blk am-card"><header class="am-card-h"><div><h2>Shipping partner</h2><p>Pan-India delivery to 19,000+ pincodes</p></div>${pill('Connected', 'live')}</header>

@@ -382,3 +382,8 @@ body.chrome-off #hdr, body.chrome-off #ftr, body.chrome-off #tabbar { display: n
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+
+/* logo tagline */
+.logo-stack { display: flex; flex-direction: column; line-height: 1; }
+.logo-sub { font: 500 10.5px/1.2 var(--f-ui); letter-spacing: .02em; opacity: .72; margin-top: 3px; white-space: nowrap; }
+@media (max-width: 600px) { .logo-sub { font-size: 9.5px; } }

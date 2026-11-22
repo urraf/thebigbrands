@@ -209,7 +209,7 @@ function heroVisual() {
   const row = (id, sp) => { const p = H.product(id); return `<div class="av-hv-pr"><span class="av-hv-pa" style="--tint:${p.c1}">${art(p)}</span><span class="av-hv-pt"><i></i><i></i><b>${fmt(p.price)}</b></span>${sp ? '<em>Sponsored</em>' : ''}</div>`; };
   return `<div class="av-hv">
     <div class="av-hv-win">
-      <div class="av-hv-bar"><i></i><i></i><i></i><span>${icon('shield')}thebigbrands.in</span></div>
+      <div class="av-hv-bar"><i></i><i></i><i></i><span>${icon('shield')}thebigbrands.co.in</span></div>
       <div class="av-hv-hdr"><b>tbb</b><span>${icon('search')}Search 50+ brands…</span><u></u></div>
       <div class="av-hv-nav"><i></i><i></i><i></i><i></i><i></i><i class="hl"></i></div>
       <div class="av-hv-page">
@@ -749,7 +749,7 @@ function faq() {
           <span class="av-contact-ic">${icon('users')}</span>
           <b>Prefer to talk to someone?</b>
           <p>Our partnerships team plans festive, launch and always-on campaigns with you.</p>
-          <a class="av-mail" href="mailto:ads@thebigbrands.in">ads@thebigbrands.in</a>
+          <a class="av-mail" href="mailto:ads@thebigbrands.co.in">ads@thebigbrands.co.in</a>
           <small>Mon–Sat · 10 am – 7 pm IST</small>
           <div class="av-contact-b">
             <button type="button" class="btn btn-light btn-sm" data-action="av-sales">${icon('phone')}Request a call back</button>

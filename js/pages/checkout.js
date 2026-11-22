@@ -29,7 +29,7 @@ const EXTRA = {
 const ic = (n, cls = '') => EXTRA[n]
   ? `<svg class="ic ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${EXTRA[n]}</svg>`
   : icon(n, cls);
-const logoMark = () => `<span class="logo-mark"><i>tbb</i><span class="logo-txt">thebigbrands<em>.in</em></span></span>`;
+const logoMark = () => `<span class="logo-mark"><i>tbb</i><span class="logo-stack"><span class="logo-txt">thebigbrands<em>.co.in</em></span><small class="logo-sub">A Shriram Ventures Initiative</small></span></span>`;
 
 /* saved-for-later list — core does not preload this key, so read it here (persisted with TBB.save('later')) */
 if (!Array.isArray(S.later)) {

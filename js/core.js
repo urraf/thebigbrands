@@ -320,7 +320,7 @@ function updateCounts() {
 
 /* ================= chrome: header / subnav / footer / tabbar / menu ================= */
 function logoMark() {
-  return `<span class="logo-mark"><i>tbb</i><span class="logo-txt">thebigbrands<em>.in</em></span></span>`;
+  return `<span class="logo-mark"><i>tbb</i><span class="logo-stack"><span class="logo-txt">thebigbrands<em>.co.in</em></span><small class="logo-sub">A Shriram Ventures Initiative</small></span></span>`;
 }
 
 function header() {
